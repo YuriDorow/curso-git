@@ -13,6 +13,10 @@ namespace projeto_teste
             {
                 Console.WriteLine("Parbéns você acertou!");
             }
+            if (resp == "não")
+            {
+                Console.WriteLine("Você é um idiota");
+            }
             else
             {
                 Console.WriteLine("Nah! Resposta errada!");
