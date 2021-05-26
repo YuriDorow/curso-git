@@ -13,7 +13,7 @@ namespace projeto_teste
             {
                 Console.WriteLine("Parbéns você acertou!");
             }
-            if (resp == "não")
+            else if (resp == "não")
             {
                 Console.WriteLine("Você é um idiota");
             }
