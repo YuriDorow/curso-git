@@ -9,13 +9,17 @@ namespace projeto_teste
             Console.Write("O Yuri é Lindão?: ");
             string resp = Console.ReadLine();
 
-            if (resp == "sim")
+            if (resp == "sim" || resp == "SIM")
             {
                 Console.WriteLine("Parbéns você acertou!");
             }
-            else if (resp == "não")
+            else if (resp == "não" || resp == "NÃO")
             {
                 Console.WriteLine("Você é um idiota");
+            }
+            else if (resp == "Te gosto")
+            {
+                Console.WriteLine("Também te gosto :)");
             }
             else
             {
